@@ -567,8 +567,13 @@
     width: 500px;
     height: 50px;
     justify-items: center;
-    
-  }
+    }
+    .instagram {
+      bottom: 10px;
+      position: fixed;
+      right: 40px;
+      width: 70px;
+    }
   
  
   /* fin footer */
