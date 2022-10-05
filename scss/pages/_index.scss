@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+  }  
+  /* tablet */
+  @media (min-width: 600px) and (max-width: 991px) {
+    header {
+      background-color: #aed6f1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 150px;
+      font-size: 25px;
+    }
+  
+    .logo__empresa {
+      height: 90px;
+      width: 90px;
+      padding: 1%;
+    }
+  
+    .header__nav {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      justify-content: end;
+      gap: 15px;
+      list-style: none;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    header a {
+      color: beige;
+      font-size: 18px;
+      font-style: normal;
+      text-decoration: none;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .img__main {
+      width: 450px;
+      height: 350px;
+      padding: 70px;
+      border-radius: 25%;
+    }
+    .main__header {
+      background: rgb(238, 174, 202);
+      background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 1) 0%,
+        rgba(148, 187, 233, 1) 69%
+      );
+      color: aliceblue;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      justify-content: center;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 700px;
+    }
+    .main__header__title {
+      font-size: 35px;
+      padding: 40px;
+      margin-left: 20px;
+    }
+    .main__header__paragraph {
+      text-align: center;
+      font-size: 25px;
+    }
+    .footer {
+      background-color: #aed6f1;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 100%;
+      height: 200px;
+    }
+    footer a {
+      color: beige;
+      font-size: 16px;
+      text-decoration: none;
+    }
+    .footer__nav {
+      display: grid;
+      grid-template-columns: repeat(5, 0.3fr);
+      list-style: none;
+      width: 600px;
+      justify-items: center;
+      padding: 10px;
+    }
+    .instagram {
+      bottom: 10px;
+      position: fixed;
+      right: 40px;
+      width: 70px;
+    }
+    .main__pilares {
+      background: rgb(174, 214, 241);
+      background: linear-gradient(
+        322deg,
+        rgba(174, 214, 241, 0.6730042358740371) 0%,
+        rgba(124, 178, 226, 1) 38%,
+        rgba(43, 102, 139, 1) 67%
+      );
+      color: beige;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding: 50px 40px;
+    }
+    .main__pilares__titulo {
+      padding: 1px;
+      text-align: center;
+    }
+    .main__pilares__video {
+      width: 500px;
+      height: 315px;
+    }
+  
+  }
+  
+  /* smartphone */
+  @media (max-width: 599px) {
+    header {
+      background-color: #aed6f1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 120%;
+      height: 150px;
+      font-size: 25px;
+    }
+  
+    .logo__empresa {
+      height: 70px;
+      width: 80px;
+      padding: 1%;
+    }
+  
+    .header__nav {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      justify-content: end;
+      gap: 15px;
+      list-style: none;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    header a {
+      color: beige;
+      font-size: 18px;
+      font-style: normal;
+      text-decoration: none;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .img__main {
+      width: 450px;
+      height: 350px;
+      padding: 70px;
+      border-radius: 25%;
+    }
+    .main__header {
+      background: rgb(238, 174, 202);
+      background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 1) 0%,
+        rgba(148, 187, 233, 1) 69%
+      );
+      color: aliceblue;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      justify-content: center;
+      display: flex;
+      justify-content: center;
+      width: 120%;
+      height: 700px;
+    }
+    .main__header__title {
+      font-size: 35px;
+      padding: 40px;
+      margin-left: 20px;
+    }
+    .main__header__paragraph {
+      text-align: center;
+      font-size: 25px;
+    }
+    .footer {
+      background-color: #aed6f1;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 120%;
+      height: 200px;
+    }
+    footer a {
+      color: beige;
+      font-size: 16px;
+      text-decoration: none;
+    }
+    .footer__nav {
+      display: grid;
+      grid-template-columns: repeat(5, 0.3fr);
+      list-style: none;
+      width: 600px;
+      justify-items: center;
+      padding: 10px;
+    }
+    .instagram {
+      bottom: 10px;
+      position: fixed;
+      right: 40px;
+      width: 70px;
+    }
+    .main__pilares {
+      background: rgb(174, 214, 241);
+      background: linear-gradient(
+        322deg,
+        rgba(174, 214, 241, 0.6730042358740371) 0%,
+        rgba(124, 178, 226, 1) 38%,
+        rgba(43, 102, 139, 1) 67%
+      );
+      color: beige;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding: 50px 40px;
+    }
+    .main__pilares__titulo {
+      padding: 1px;
+      text-align: center;
+    }
+    .main__pilares__video {
+      width: 500px;
+      height: 315px;
+    }
+  }
+  
+  /* desktop */
+  @media (min-width: 992px) {
+    
+   
+    .logo__empresa {
+      height: 100px;
+      width: 100px;
+      fill: none;
+    }
+   
+    
+   
+    /* inicio */
+    .main__header {
+      background: rgb(238, 174, 202);
+      background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 1) 0%,
+        rgba(148, 187, 233, 1) 69%
+      );
+      color: aliceblue;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      justify-content: center;
+      display: grid;
+      grid-template-columns: 1fr 2f;
+      align-items: center;
+      height: 90vh;
+      width: 90;
+    }
+  
+    .img__main {
+      transform: translate(-20px, -20px);
+      animation-name: float;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in;
+      animation-duration: 10s;
+      border-radius: 40px;
+    }
+  
+    .main__header__title {
+      font-style: normal;
+      font-size: 54px;
+      margin-top: 170px;
+      padding: 20px;
+    }
+  
+    .main__header__paragraph {
+      color: #1a5276;
+      font-size: 30px;
+      padding: 30px 0;
+    }
+    /* fin del inicio */
+    /* sobre nosotros */
+  
+    .main__pilares {
+      background: rgb(174, 214, 241);
+      background: linear-gradient(
+        322deg,
+        rgba(174, 214, 241, 0.6730042358740371) 0%,
+        rgba(124, 178, 226, 1) 38%,
+        rgba(43, 102, 139, 1) 67%
+      );
+      color: beige;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      display: grid;
+      grid-template-areas:
+        "title title1 title2"
+        "c01 c02 c03"
+        "c04 c05 c06";
+      grid-template-rows: 1fr 2fr 2fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px 50px;
+      padding: 150px 30px;
+      justify-items: center;}
+  
+    .main__pilares__titulo {
+      color: beige;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      grid-area: title;
+      padding: 70px;
+    }
+    .main__pilares__subtitulos {
+      text-align: center;
+    }
+  
+    .main__pilares__video {
+      width: 100;
+      height: 100;
+    }
+    .main__pilares01 {
+      grid-area: c01;
+    }
+  
+    .main__pilares02 {
+      grid-area: c02;
+    }
+    .main__pilares03 {
+      grid-area: c03;
+    }
+    .main__pilares04 {
+      grid-area: c05;
+    }
+    /* fin sobre nosotros */
+    /* nuestros staff */
+  
+    .main__staff {
+      background: rgb(174, 214, 241);
+      background: linear-gradient(
+        322deg,
+        rgba(174, 214, 241, 0.6730042358740371) 0%,
+        rgba(124, 178, 226, 1) 38%,
+        rgba(43, 102, 139, 1) 67%
+      );
+      color: beige;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      display: grid;
+      grid-template-areas:
+        "title title title"
+        "card-01 card-02 card-03"
+        "card-04 card-05 card-06";
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px 70px;
+      padding: 200px 40px;
+    }
+  
+    .main__staff__titulo {
+      font-size: 48px;
+      font-weight: 600;
+      text-align: left;
+      grid-area: title;
+    }
+  
+    .main__staff__subtitulo {
+      text-align: center;
+    }
+  
+    .main__staff__texto {
+      text-align: left;
+      padding-right: 0px;
+      padding-left: 0;
+      justify-content: center;
+    }
+  
+    .card01 {
+      grid-area: card-01;
+      text-align: center;
+    }
+    .card02 {
+      grid-area: card-04;
+    }
+    .card03 {
+      grid-area: card-02;
+      text-align: center;
+    }
+    .card04 {
+      grid-area: card-05;
+    }
+    .card05 {
+      grid-area: card-03;
+      text-align: center;
+    }
+    .card06 {
+      grid-area: card-06;
+    }
+    /* fin de staff */
+    /* nuestros trabajos */
+  
+    .main__trabajos {
+      background: rgb(174, 214, 241);
+      background: linear-gradient(
+        322deg,
+        rgba(174, 214, 241, 0.6730042358740371) 0%,
+        rgba(124, 178, 226, 1) 38%,
+        rgba(43, 102, 139, 1) 67%
+      );
+      color: beige;
+      text-align: center;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      display: grid;
+      grid-template-areas:
+        "title title title"
+        "cardA cardB cardC"
+        "cardD cardE cardF";
+      grid-template-rows: 0.2fr 0.4fr 0.4fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 70px 70px;
+      padding: 200px 60px;
+    }
+  
+    .main__trabajos__titulo {
+      grid-area: title;
+      font-size: 20px;
+      text-align: left;
+    }
+    .main__trabajos__tratamientosCorporales {
+      grid-area: cardA;
+    }
+    .main__trabajos__tratamientosCorporales:hover {
+      transform: scale(1.2);
+      background-color: #8d6e63;
+      border-radius: 30px;
+    }
+  
+    .main__trabajos__reflexología {
+      grid-area: cardB;
+    }
+    .main__trabajos__reflexología:hover {
+      transform: scale(1.2);
+      background-color: #8d6e63;
+      border-radius: 30px;
+    }
+  
+    .main__trabajos__yoga {
+      grid-area: cardC;
+    }
+    .main__trabajos__yoga:hover {
+      transform: scale(1.2);
+      background-color: #8d6e63;
+      border-radius: 30px;
+    }
+  
+    .main__trabajos__img {
+      grid-area: cardD;
+    }
+    .main__trabajos__img1 {
+      grid-area: cardE;
+    }
+  
+    .main__trabajos__img2 {
+      grid-area: cardF;
+    }
+  
+    .main__trabajos__img img {
+      width: 400px;
+      height: 300px;
+    }
+    /* fin de nuestros trabajos */
+    /* contacto */
+    .main__contacto {
+      background: rgb(174, 214, 241);
+      background: linear-gradient(
+        322deg,
+        rgba(174, 214, 241, 0.6730042358740371) 0%,
+        rgba(124, 178, 226, 1) 38%,
+        rgba(43, 102, 139, 1) 67%
+      );
+      color: beige;
+      text-align: center;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      padding: 200px 90px;
+      display: grid;
+      grid-template-areas:
+        "title title1"
+        "ca01 ca02";
+      grid-template-rows: 1fr 3fr;
+      grid-template-columns: 1fr, 1fr;
+    }
+    .main__contacto__titulo {
+      width: 400px;
+      height: 100px;
+      text-align: center;
+    }
+    .main__contacto__escribinos {
+      grid-area: ca01;
+      padding: 60px;
+    }
+    .main__contacto__redes {
+      grid-area: ca02;
+      padding: 60px;
+    }
+    /* fin de contacto */
+    /* footer */
+    .footer {
+      background-color: #aed6f1;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    footer a {
+      color: beige;
+      font-size: 15px;
+      text-decoration: none;
+      font-style: normal;
+    }
+  
+    .footer__nav {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      justify-content: end;
+      gap: 20px;
+      list-style: none;
+      width: 500px;
+      height: 50px;
+      justify-items: center;
+      }
+      .instagram {
+        bottom: 10px;
+        position: fixed;
+        right: 40px;
+        width: 70px;
+      }
+    
+   
+    /* fin footer */
+  }
+  
+  /* inicio de las animaciones  */
+  @keyframes float {
+    0%,
+    100% {
+      transform: translate(-20px, -20px);
+    }
+    25% {
+      transform: translate(20px, -20px);
+    }
+    50% {
+      transform: translate(20px, 20px);
+    }
+    75% {
+      transform: translate(-20px, 20px);
+    }
+  }
+  

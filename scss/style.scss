@@ -1,0 +1,9 @@
+// Include any default variable overrides here (though functions won't be available)
+$primary: #B5C5D7!:default;
+$font-family-sans-serif: "Poppins", sans-serif;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+@import "./pages/index";

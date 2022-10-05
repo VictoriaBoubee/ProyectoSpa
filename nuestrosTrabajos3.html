@@ -1,139 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./IMG/icons8-yoga-64.png" />
-    <link rel="stylesheet" href="./CSS/Style.css" />
-    <title>Studio Spa</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
-  </head>
-
-  <!-- Principio de menú -->
-  <body>
-    <header>
-      <img class="logo__empresa" src="./IMG/logo.jpg" alt="logo" />
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Inicio</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="./sobreNosotros1.html"
-                >Sobre Nosotros</a
-              >
-              <a class="nav-link" href="./staff2.html">Staff</a>
-              <a class="nav-link" href="./nuestrosTrabajos3.html"
-                >Nuestros Trabajos</a
-              >
-              <a class="nav-link" href="./contacto4.html">Contacto</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- fin de menú -->
-    <!-- comienzo del main -->
-    <main class="main__trabajos">
-      <div class="main__trabajos__titulo">
-      <h1 >Nuestros trabajos</h1>
-      </div>
-    <div class="main__trabajos__tratamientosCorporales">
-      <ul>
-        <h3>Tratamientos corporales</h3>
-        <p>
-          Los tratamientos corporales sirven en general para tener una piel más
-          sana, tonificar, reafirmar y remodelar. No obstante, algunos de ellos
-          van más allá de lo estético y ayudan a solucionar patologías como los
-          edemas, mejorando la circulación de nuestro cuerpo, o como la
-          celulitis.
-        </p>
-      </div>
-      <div class="main__trabajos__reflexología">
-        <h3> Reflexología </h3>
-        <p>
-          La reflexología es la aplicación de presión en las áreas de los pies,
-          lo cual no solos es relajante y puede ayudar a aliviar el estrés, sino
-          que las áreas del pie corresponden a órganos y sistemas del cuerpo. La
-          presión aplicada en el pie genera relajación y curación en el área
-          correspondiente del cuerpo.
-        </p>
-      </div>
-      <div class="main__trabajos__yoga">
-        <h3>Yoga</h3>
-        <p>
-          Los beneficios del yoga se notan en la salud en general porque el yoga
-          es una filosofía de vida, un sistema completo de desarrollo interior.
-          Nació hace unos tres mil años y tiene sus orígenes en los Vedas. La
-          enseñanza de su filosofía se basa, sobre todo, en dos textos escritos
-          en sánscrito: el Bhagavad Gita y los Yoga sutras de Patanjali..
-        </p>
-      </div>
-        <div class="main__trabajos__img">
-        <img src="./IMG/-gr24215321.jpg" alt="masajes" height="300" width="500">
-        <img src="./IMG/yoga.jpg" alt="yoga" height="300" width="500">
-      </div>
-        <div class="main__trabajos__img1">
-        <img src="./IMG/depositphotos_12384448-stock-photo-spa-scenespa-scene.jpg" alt="piletas" height="300" width="500">
-        <img src="./IMG/Gestion-del-Negocio-Spa-Toluca.jpg" alt="yacuzzi" height="300" width="500">
-      </div>
-        <div class="main__trabajos__img2">
-        <img src="./IMG/piedras.jpg" alt="masajes con piedras" height="300" width="500">
-        <img src="./IMG/reflexologia.jpg" alt="reflexologia" height="300" width="500">
-      </div>
-      </ul>
-    </main>
-    <!-- fin del main -->
-    <!-- comienzo footer -->
-    <footer>
-      <div class="footer">
-      <img class="logo__empresa" src="./IMG/logo.jpg" alt="logo">
-      <nav>
-        <ul class="footer__nav">
-          <li>
-            <a href="./index.html">Inicio</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Spa</title>
+  <link rel="shortcut icon" href="./IMG/icons8-yoga-64.png" />
+  <link rel="stylesheet" href="./CSS/Style.css" />
+  <title>Studio Spa</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <header>
+  <nav class="navbar navbar-expand-lg navbar__background fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">
+        <img class="logo__empresa" src="./IMG/logo.jpg" alt="logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item pe-2">
+            <a class="nav-link active" aria-current="page" href="./index.html"
+              >Inicio</a
+            >
           </li>
-          <li>
-            <a href="./sobreNosotros1.html"> Sobre Nosotros</a>
+          <li class="nav-item pe-2">
+            <a class="nav-link" href="./sobreNosotros1.html"
+              >Sobre Nosotros</a
+            >
           </li>
-          <li>
-            <a href="./staff2.html"> Staff</a>
+          <li class="nav-item pe-2">
+            <a class="nav-link" href="./staff2.html">Staff</a>
           </li>
-          <li>
-            <a href="./nuestrosTrabajos3.html"> Nuestros Trabajos</a>
+          <li class="nav-item">
+            <a class="nav-link" href="./nuestrosTrabajos3.html"
+              >Nuestros Trabajos</a
+            >
           </li>
-          <li>
-            <a href="./contacto4.html"> Contacto</a>
+          <li class="nav-item">
+            <a class="nav-link btn btn-outline-ligth rounded-pill px-3" href="./contacto4.html">Contacto</a>
+          </li>            
+            </ul>
           </li>
         </ul>
-      </nav>
-      <img class="instagram" src="./IMG/icons8-instagram-48.png" alt="Instagram">
+      </div>
     </div>
-    </footer>
-    <script
+  </nav>
+    <!-- comienzo del main -->
+    <div class="container px-4 py-5" id="featured-3">
+      <h1 class="trabajos_titulo" >Nuestros trabajos</h1>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+            <img src="./IMG/diamante.png" alt="icono yoga" class="icono_yoga">
+          </div>
+          <h3 class="fs-2">Tratamientos corporales</h3>
+          <p class="tratamientos">Los tratamientos corporales sirven en general para tener una piel más
+            sana, tonificar, reafirmar y remodelar. No obstante, algunos de ellos
+            van más allá de lo estético y ayudan a solucionar patologías como los
+            edemas, mejorando la circulación de nuestro cuerpo, o como la
+            celulitis.</p>
+             </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
+            <img src="./IMG/diamante.png" alt="icono yoga" class="icono_yoga">
+          </div>
+          <h3 class="fs-2">Reflexología</h3>
+          <p>La reflexología es la aplicación de presión en las áreas de los pies,
+            lo cual no solos es relajante y puede ayudar a aliviar el estrés, sino
+            que las áreas del pie corresponden a órganos y sistemas del cuerpo. La
+            presión aplicada en el pie genera relajación y curación en el área
+            correspondiente del cuerpo.</p>
+            </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
+            <img src="./IMG/diamante.png" alt="icono yoga" class="icono_yoga">
+          </div>
+          <h3 class="fs-2">Yoga</h3>
+          <p>Los beneficios del yoga se notan en la salud en general porque el yoga
+            es una filosofía de vida, un sistema completo de desarrollo interior.
+            Nació hace unos tres mil años y tiene sus orígenes en los Vedas. La
+            enseñanza de su filosofía se basa, sobre todo, en dos textos escritos
+            en sánscrito: el Bhagavad Gita y los Yoga sutras de Patanjali.</p>
+            </div>
+      </div>
+    </div>
+    <div class="conteiner">
+      <div class="row">
+        <div class="col-sm-12">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./IMG/yoga.jpg" class="d-block w-100" alt="ejercico yoga" width="120px" height="450" >
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/reflexologia.jpg" class="d-block w-100" alt="masajes reflexología" width="20px" height="450">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/piedras.jpg" class="d-block w-100" alt="piedras en la esplada" width="120px" height="450">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/masaje-tipos-1200x628.jpg" class="d-block w-100" alt="masajes rostro" width="120px" height="450">
+        </div>           
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+    
+    <!-- comienzo del footer -->
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+  <p class="col-md-4 mb-0 text-muted text-center"> Studio Spa</p>
+  
+  <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+  </a>
+  
+  <ul class="nav col-md-4 justify-content-center">
+    <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+    <li class="nav-item"><a href="./sobreNosotros1.html" class="nav-link px-2 text-muted">Sobre Nosotros</a></li>
+    <li class="nav-item"><a href="./staff2.html" class="nav-link px-2 text-muted">Staff</a></li>
+    <li class="nav-item"><a href="./nuestrosTrabajos3.html" class="nav-link px-2 text-muted">Nuestros Trabajos</a></li>
+    <li class="nav-item"><a href="./contacto4.html" class="nav-link px-2 text-muted">Contacto</a></li>
+  </ul>
+  </footer>
+    </nav>
+    </div>
+  </main>
+      <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
   </body>
-  <!-- fin del footer -->
-</html>
+  </html>
+  
