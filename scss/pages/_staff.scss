@@ -1,0 +1,53 @@
+@media (min-width: 992px) { 
+.main_staff{
+padding-top: 100px;
+margin-top: 13%;
+padding-bottom: 50px;
+margin-left: 100px;
+font-family:'Roboto Mono', monospace;
+font-size: 40px; 
+}
+.img-fluid{
+width: 300px;
+height: 300px;
+margin-left: 10%;
+margin-top: 25px;
+border-radius: 8px;
+position: center;
+}
+}
+// Dispositivos pequeños (teléfonos horizontales, 576px y más)
+@media (min-width: 576px) { 
+.main_staff{
+padding-top: 100px;
+margin-top: 100px;
+margin-left: 100px;
+font-family:'Roboto Mono', monospace;
+font-size: 40px; 
+}
+.imagenes_staff{
+width: 350px;
+height: 300px;
+margin-left: 35px;
+margin-top: 25px;
+border-radius: 8px;
+}
+}
+
+// Dispositivos medianos (tabletas, 768px y más)
+@media (min-width: 768px) { 
+.main_staff{
+padding-top: 40px;
+margin-top: 100px;
+margin-left: 100px;
+font-family:'Roboto Mono', monospace;
+font-size: 40px; 
+}
+.imagenes_staff{
+width: 350px;
+height: 300px;
+margin-left: 35px;
+margin-top: 25px;
+border-radius: 8px;
+}
+}

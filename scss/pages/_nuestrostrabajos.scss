@@ -1,0 +1,52 @@
+// Dispositivos grandes (escritorios, 992px y más)
+@media (min-width: 992px) {
+.trabajos_titulo{
+font-family:'Roboto Mono', monospace;
+margin-top: 40px;
+padding-top: 40px;    
+margin-left: 50px;    
+font-size: 40px;
+}
+.tratamientos{
+font-size:'Roboto Mono', monospace;
+}
+.icono_yoga{
+width: 90px;
+height: 80px;
+}
+}
+// Dispositivos pequeños (teléfonos horizontales, 576px y más)
+@media (min-width: 576px) { 
+.trabajos_titulo{
+font-family:'Roboto Mono', monospace;
+margin-top: 80px;
+padding-top: 90px;    
+margin-left: 50px;    
+font-size: 30px;
+}
+.tratamientos{
+font-size:'Roboto Mono', monospace;
+}
+.icono_yoga{
+width: 90px;
+height: 80px;
+}
+}
+
+// Dispositivos medianos (tabletas, 768px y más)
+@media (min-width: 768px) { 
+.trabajos_titulo{
+font-family:'Roboto Mono', monospace;
+margin-top: 40px;
+padding-top: 40px;    
+margin-left: 50px;    
+font-size: 40px;
+}
+.tratamientos{
+font-size:'Roboto Mono', monospace;
+}
+.icono_yoga{
+width: 90px;
+height: 80px;
+}
+}

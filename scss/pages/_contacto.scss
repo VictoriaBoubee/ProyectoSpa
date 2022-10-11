@@ -1,0 +1,20 @@
+// Dispositivos grandes (escritorios, 992px y más)
+@media (min-width: 992px) { 
+  .contacto_redes{
+    margin-left: 50px;
+  }
+
+ }
+ // Dispositivos pequeños (teléfonos horizontales, 576px y más)
+ @media (min-width: 576px) { 
+  .contacto_redes{
+    margin-left: 50px;
+  }
+ }
+ 
+ // Dispositivos medianos (tabletas, 768px y más)
+ @media (min-width: 768px) { 
+  .contacto_redes{
+    margin-left: 50px;
+  }
+ }

@@ -1,0 +1,71 @@
+// Dispositivos grandes (escritorios, 992px y más)
+@media (min-width: 992px) {
+  .main__nuestros__pilares {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-top: 10px; 
+    font-family:'Roboto Mono', monospace;
+    font-size: 30px;  
+  }
+.pilares_texto:hover {
+    transform: scale(1.2);
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .main__video {
+    margin-left: 300px;
+    margin-top: 200px;
+  }
+  .flor_loto{
+    width: 200px;
+    height: 200px;
+  }
+}
+// Dispositivos pequeños (teléfonos horizontales, 576px y más)
+@media (min-width: 576px) {
+  .main__nuestros__pilares{
+    margin-top: 200px;
+    }
+  .nuestros_pilares {
+    margin-bottom: 50px;
+    font-family: monospace;
+    font-size: 50px;
+  }
+  .pilares_texto:hover {
+    transform: scale(1.2);
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .main_video {
+    margin-left: 50px;    
+  }
+  .flor_loto {
+    width: 100px;
+    height: 100px;
+  }
+  }
+// Dispositivos medianos (tabletas, 768px y más)
+@media (min-width: 768px) {
+  .main__nuestros__pilares {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .pilares_texto:hover {
+    transform: scale(1.2);
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .main__video {
+    margin-left: 20%;
+    margin-top: 100px;
+  }
+  .flor_loto {
+    width: 100px;
+    height: 100px;
+  }
+}
