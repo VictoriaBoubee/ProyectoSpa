@@ -50,3 +50,16 @@ width: 90px;
 height: 80px;
 }
 }
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+.trabajos_titulo{
+margin-top: 40px;
+padding-top: 40px;    
+margin-left: 50px;    
+font-size: 40px;
+}
+.icono_yoga{
+width: 50px;
+height: 50px;
+}
+ }

@@ -149,6 +149,54 @@ width: 130px;
 background-color: white;
 }
 }
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .navbar__background {
+    background-color: white;
+    }
+    .nav-item{
+    font-size: 15px;
+    }
+    .logo__empresa {
+    height: 100px;
+    width: 130px;
+    }
+    .conteiner_main{
+        width: 80%;
+        height: 600px;
+        overflow: hidden;
+        position: relative;
+        margin: 20px auto;
+        border-radius: 20px;
+        margin-top: 180px;
+    }
+    .conteiner_main img{
+        width: 100%;
+        height: 100%;
+    }
+    .conteiner_main h1{
+        font-weight: bold;
+        font-size: 3rem;
+        color: white;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1.0)
+        }
+    .conteiner_main p {
+        font-size: 2rem;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1.0)
+    }
+    .footer{
+    background-color: white;
+    }
+    } 
 
 
 

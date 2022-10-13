@@ -69,3 +69,13 @@
     height: 100px;
   }
 }
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+  .main__nuestros__pilares {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+ }
