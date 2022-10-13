@@ -8705,7 +8705,10 @@ textarea.form-control-lg {
     padding-top: 100px;
     padding-bottom: 50px;
     margin-top: 20px;
-    font-size: 20px; } }
+    font-size: 20px; }
+  .main__video {
+    margin-left: 20%;
+    margin-top: 100px; } }
 
 @media (min-width: 992px) {
   .contacto_redes {
