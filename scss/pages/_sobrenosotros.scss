@@ -7,12 +7,7 @@
     font-family:'Roboto Mono', monospace;
     font-size: 30px;  
   }
-.pilares_texto:hover {
-    transform: scale(1.2);
-    background-color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+
   .main__video {
     margin-left: 300px;
     margin-top: 200px;
@@ -32,12 +27,7 @@
     font-family: monospace;
     font-size: 50px;
   }
-  .pilares_texto:hover {
-    transform: scale(1.2);
-    background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
+  
   .main_video {
     margin-left: 50px;    
   }
@@ -54,13 +44,7 @@
     margin-top: 20px;
     font-size: 20px;
   }
-  .pilares_texto:hover {
-    transform: scale(1.2);
-    background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .main__video {
+   .main__video {
     margin-left: 20%;
     margin-top: 100px;
   }
