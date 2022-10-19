@@ -6,11 +6,12 @@ padding-bottom: 50px;
 margin-left: 100px;
 font-family:'Roboto Mono', monospace;
 font-size: 40px; 
+font-weight: bolder;
 }
 .img-fluid{
-width: 300px;
+width: 90%;
 height: 300px;
-margin-left: 10%;
+margin-left: 5%;
 margin-top: 25px;
 border-radius: 8px;
 position: center;
@@ -24,6 +25,7 @@ margin-top: 100px;
 margin-left: 100px;
 font-family:'Roboto Mono', monospace;
 font-size: 40px; 
+font-weight: bolder;
 }
 .imagenes_staff{
 width: 350px;
@@ -42,6 +44,7 @@ margin-top: 100px;
 margin-left: 100px;
 font-family:'Roboto Mono', monospace;
 font-size: 40px; 
+font-weight: bolder;
 }
 .imagenes_staff{
 width: 350px;
@@ -53,10 +56,17 @@ border-radius: 8px;
 }
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
-    .main_staff{
-        padding-top: 40px;
-        margin-top: 100px;
-        margin-left: 100px;
-        font-size: 40px; 
-        }  
+.main_staff{
+    padding-top: 40px;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 40px; 
+    font-weight: bolder;
+    }  
+.img-fluid{
+    width: 70%;
+    height: 50%;
+    margin-left: 5%;
+    position: center;
+    }
  }

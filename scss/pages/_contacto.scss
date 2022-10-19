@@ -1,5 +1,11 @@
 // Dispositivos grandes (escritorios, 992px y más)
 @media (min-width: 992px) {
+  .titulo_contacto{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    margin-left: 10px;
+  }
   .contacto_redes {
     margin-left: 50px;
   }
@@ -10,6 +16,12 @@
   .contacto_redes {
     margin-left: 50px;
   }
+  .titulo_contacto{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    margin-left: 20px;
+    }
 }
 
 // Dispositivos medianos (tabletas, 768px y más)
@@ -17,4 +29,21 @@
   .contacto_redes {
     margin-left: 50px;
   }
+  .titulo_contacto{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+     }
+}
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+  .contacto_redes {
+    margin-left: 50px;
+  }
+  .titulo_contacto{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    
+  }   
 }
