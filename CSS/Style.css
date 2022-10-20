@@ -8727,7 +8727,8 @@ textarea.form-control-lg {
     font-size: 20px; }
   .main__video {
     margin-top: 100px;
-    width: 50%; }
+    width: 50%;
+    margin-left: 3px; }
   .flor_loto {
     width: 150px;
     height: 150px; } }
