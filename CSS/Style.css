@@ -8727,8 +8727,8 @@ textarea.form-control-lg {
     font-size: 20px; }
   .main__video {
     margin-top: 100px;
-    width: 50%;
-    margin-left: 3px; }
+    width: 150px;
+    background-position: center; }
   .flor_loto {
     width: 150px;
     height: 150px; } }
@@ -8740,7 +8740,9 @@ textarea.form-control-lg {
     font-weight: bolder;
     margin-left: 10px; }
   .contacto_redes {
-    margin-left: 50px; } }
+    margin-left: 50px; }
+  .main__conatcto {
+    width: 90%; } }
 
 @media (min-width: 576px) {
   .contacto_redes {
