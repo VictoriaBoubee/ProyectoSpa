@@ -8676,10 +8676,16 @@ textarea.form-control-lg {
     font-size: 50px; }
   .titulo_pilares {
     font-weight: bolder; }
-  .main__video {
-    margin-right: 100px;
+  
+  .container-fluid,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
     margin-top: 100px;
-    width: 350px; }
+    width: 350px;
+    margin-left: 30%; }
   .flor_loto {
     width: 200px;
     height: 200px; } }
