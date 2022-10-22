@@ -7,7 +7,10 @@
     margin-left: 10px;
   }
   .contacto_redes {
-    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
   }
   .main__conatcto{
     width: 90%;
