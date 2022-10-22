@@ -6,21 +6,35 @@
     font-weight: bolder;
     margin-left: 10px;
   }
-  .contacto_redes {
+  .felx__container {
     display: flex;
     flex-direction: row;
-    text-decoration: none;
-    align-items: center;
+    text-align: center;   
   }
+  .felx__container div{
+    margin: 60px;
+    text-align: center;
+    font-size: 20px;
+  }
+ 
   .main__conatcto{
     width: 90%;
+    list-style-type: none;
+    text-decoration: none;
   }
 }
 
 // Dispositivos pequeños (teléfonos horizontales, 576px y más)
 @media (min-width: 576px) {
-  .contacto_redes {
-    margin-left: 50px;
+  .felx__container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;   
+  }
+  .felx__container div{
+    margin: 27px;
+    text-align: center;
+    font-size: 15px;
   }
   .titulo_contacto{
     margin-top: 150px;
@@ -49,7 +63,16 @@
   .titulo_contacto{
     margin-top: 150px;
     margin-bottom: 50px;
-    font-weight: bolder;
-    
+    font-weight: bolder;    
   }   
+  .felx__container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;   
+  }
+  .felx__container div{
+    margin: 27px;
+    text-align: center;
+    font-size: 13px;
+  }
 }
