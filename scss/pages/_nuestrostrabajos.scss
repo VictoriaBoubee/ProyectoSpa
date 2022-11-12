@@ -1,47 +1,76 @@
 // Dispositivos grandes (escritorios, 992px y más)
 @media (min-width: 992px) {
-.trabajos_titulo{
-font-family:'Roboto Mono', monospace;
-margin-top: 40px;
-padding-top: 40px;    
-margin-left: 50px;    
-font-size: 40px;
-font-weight: bolder;
-}
-.tratamientos{
-font-size:'Roboto Mono', monospace;
-}
+    .main__trabajos__titulo{
+        font-family:'Roboto Mono', monospace;
+        margin-top: 40px;
+        padding-top: 40px;    
+        margin-left: 50px;    
+        font-size: 40px;
+        font-weight: bolder;
+        }
 .icono_yoga{
 width: 90px;
 height: 80px;
+}
+.dia__spa{
+    width: 50%;
+    color: palevioletred;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    &__lead{
+        font-size: 17px;
+        }
 }
 }
 // Dispositivos pequeños (teléfonos horizontales, 576px y más)
 @media (min-width: 576px) { 
-.trabajos_titulo{
-font-family:'Roboto Mono', monospace;
-margin-top: 80px;
-padding-top: 90px;    
-margin-left: 50px;    
-font-size: 30px;
+.main__trabajos__titulo{
+margin-top: 100px;
+padding-top: 40px;    
+margin-left: 30px;    
+font-size: 40px;
 font-weight: bolder;
 }
-.tratamientos{
-font-size:'Roboto Mono', monospace;
-}
 .icono_yoga{
-width: 90px;
-height: 80px;
+width: 50px;
+height: 50px;
+}
+.dia__spa{
+    color: palevioletred;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    &__lead{
+        font-size: 17px;
+        text-align: center;
+        margin: 10%;
+        }
+        &__imagen{
+            width: 60%;
+            height: 250px;
+            margin-left: 30%;
+        }
+}
+.conteiner__trabajos{
+    &__info {
+    width: 97%;
+    margin-bottom: 20px;
+}
+&__pie {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
 }
 .carousel-inner{
-width: 80%;
-margin-left: 10%;
+width: 100%;
 }
 }
 
 // Dispositivos medianos (tabletas, 768px y más)
 @media (min-width: 768px) { 
-.trabajos_titulo{
+.main__trabajos__titulo{
 font-family:'Roboto Mono', monospace;
 margin-top: 40px;
 padding-top: 40px;    
@@ -49,9 +78,7 @@ margin-left: 50px;
 font-size: 40px;
 font-weight: bolder;
 }
-.tratamientos{
-font-size:'Roboto Mono', monospace;
-}
+
 .icono_yoga{
 width: 90px;
 height: 80px;
@@ -61,20 +88,37 @@ width: 80%;
 margin-left: 10%;
 margin-top: 5px;
 }
-.lead{
-    font-size: 17px;
-    }
-.dia_spa{
+.dia__spa{
     color: palevioletred;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    &__lead{
+        font-size: 17px;
+        }
+    &__imagen{
+        margin-left: 20%;
+        width: 80%;
+        height: 80%;
+        } 
+    }
+.conteiner__trabajos{
+    &__info {
+    width: 97%;
+    margin-bottom: 20px;
+}
+&__pie {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
 }
 }
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px){ 
-.trabajos_titulo{
-margin-top: 40px;
+.main__trabajos__titulo{
+margin-top: 50px;
 padding-top: 40px;    
 margin-left: 50px;    
 font-size: 40px;
@@ -88,4 +132,31 @@ height: 50px;
 width: 100%;
 height: 50%;
 }
+.dia__spa{
+    color: palevioletred;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    &__lead{
+        font-size: 17px;
+        text-align: center;
+        }
+        &__imagen{
+            margin-left: 20%;
+            width: 400px;
+            height: 250px;
+        }
+}
+.conteiner__trabajos{
+    &__info {
+    width: 97%;
+    margin-bottom: 20px;
+}
+&__pie {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+}
+
 }

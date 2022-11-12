@@ -33,16 +33,34 @@
   .titulo_pilares{
     font-weight: bolder;
   }  
-  .main__video {
-    margin-left: 5%;
-    margin-top: 100px;
-    width: 350px;       
-  }
   .flor_loto {
     width: 200px;
     height: 200px;
   }
+  .conteiner__nosotros{
+    &__info {
+      width: 97%;
+      margin-bottom: 20px;
   }
+  &__pie {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  } 
+  }
+  .info__nosotros{
+    width: 97%;
+    font-size: 15px;
+    &__imagenes{
+    margin-left: 10%;    
+  }
+  &__texto{
+  text-align: center;
+  margin-top: 20px; 
+}
+  }
+  }
+  
 // Dispositivos medianos (tabletas, 768px y más)
 @media (min-width: 768px) {
   .main__nuestros__pilares {
@@ -50,24 +68,36 @@
     padding-bottom: 50px;
     margin-top: 20px;
     font-size: 20px;
-  }
-    .titulo_pilares{
+    &__titulo{
     font-weight: bolder;
   }
+  }
+  .info__nosotros{
+    width: 97%;
+    font-size: 15px;
+    &__imagenes{
+    margin-left: 20%;    
+  }
+  &__texto{
+  text-align: center;
+  margin-top: 20px; 
+ }
+  }
+    
   .flor_loto {
     width: 200px;
     height: 200px;
   }
-  .imagenes_promo{
-    margin-left: 20px;    
-  }
-.texto_promo{
-  text-align: center;
-  margin-top: 20px; 
- }
-.info_nosotros{
-  width: 97%;
-  font-size: 15px;
+.conteiner__nosotros{
+  &__info {
+    width: 97%;
+    margin-bottom: 20px;
+}
+&__pie {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
 }
 }
 
@@ -82,10 +112,27 @@
     margin-top: 20px;
     font-size: 20px;
   }
-  .main__video {
-    margin-top: 100px; 
-    width: 150px; 
-    background-position: center;    
+  .conteiner__nosotros{
+    &__info {
+      width: 97%;
+      margin-bottom: 20px;
+  }
+  &__pie {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  } 
+  }
+  .info__nosotros{
+    width: 97%;
+    font-size: 15px;
+    &__imagenes{
+    margin-left: 20px;    
+  }
+  &__texto{
+  text-align: center;
+  margin-top: 20px; 
+ }
   }
   .flor_loto{
     width: 150px;

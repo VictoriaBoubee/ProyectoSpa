@@ -51,7 +51,7 @@
   <!-- comienzo del main -->
   <main>
       <div class="container px-4 py-5" id="featured-3">
-      <h1 class="trabajos_titulo">Nuestros trabajos</h1>
+      <h1 class="main__trabajos__titulo">Nuestros trabajos</h1>
       <!-- tratamientos -->
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="feature col">
@@ -59,7 +59,7 @@
             <img src="./IMG/diamante.png" alt="icono yoga" class="icono_yoga">
           </div>
           <h3 class="fs-2">Tratamientos corporales</h3>
-          <p class="tratamientos">Los tratamientos corporales sirven en general para tener una piel más
+          <p>Los tratamientos corporales sirven en general para tener una piel más
             sana, tonificar, reafirmar y remodelar. No obstante, algunos de ellos
             van más allá de lo estético y ayudan a solucionar patologías como los
             edemas, mejorando la circulación de nuestro cuerpo, o como la
@@ -90,7 +90,7 @@
       </div>
     </div>
     <!-- carousel -->
-    <div class="conteiner img-fluid">
+    <div class="conteiner">
       <div class="row">
         <div class="col-sm-12">
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -120,12 +120,11 @@
         <!-- dia de spa -->
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <img src="img/diasdespa.webp" class="img-fluid" alt="día de spa" width="700"
-              height="500" >
+            <img src="img/diasdespa.webp" class="dia__spa__imagen" alt="día de spa" >
           </div>
           <div class="col-lg-6">
-            <h1 class="dia_spa">Día de Spa</h1>
-            <p class="lead">Consiste en una rutina de aproximadamente 3 horas, en donde asesoramos a la persona durante
+            <h1 class="dia__spa">Día de Spa</h1>
+            <p class="dia__spa__lead">Consiste en una rutina de aproximadamente 3 horas, en donde asesoramos a la persona durante
               su estadía para lograr un bienestar corporal y mental al terminar el mismo.
               Lo ideal es comenzar por el Gimnasio, con circuitos supervisados por nuestros Personal Trainer.
               En el piso de damas o en el de caballeros se realiza una rutina en los baños de vapor: turco, sauna,
@@ -137,30 +136,32 @@
         </div>
       </div>
       <!-- info de pie de pagina -->
-      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="img_pie">
-          <div class="pie" >
-            <img src="./img/tarjeta.png" alt="tarjeta" width="60px" height="40px">
+      <div class="conteiner__trabajos">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="conteiner__trabajos__pie">
+            <div class="conteiner__trabajos__info">
+              <img src="./img/tarjeta.png" alt="tarjeta" width="60px" height="40px">
+            </div>
+            <h5>Medios de pago</h5>
+            <p>Efectivo, tarjetas de crédito y débito.</p>
           </div>
-          <h5>Medios de pago</h5>
-          <p>Efectivo, tarjetas de crédito y débito.</p>
-        </div>
-        <div class="img_pie">
-          <div class="pie" >
-            <img src="./img/whatapprosa.jpg" alt="icono whatsapp" width="50px" height="50px">
+          <div class="conteiner__trabajos__pie">
+            <div class="conteiner__trabajos__info">
+              <img src="./img/whatapprosa.jpg" alt="icono whatsapp" width="50px" height="50px">
+            </div>
+            <h5>Comunicate con nostros</h5>
+            <p>Consultá tus dudas vía whatsapp.</p>
+            <p> (223)154377892.</p>
           </div>
-          <h5>Comunicate con nostros</h5>
-          <p>Consultá tus dudas vía whatsapp.</p>
-          <p> (223)154377892.</p>
-        </div>
-        <div class="img_pie">
-          <div class="pie">
-            <img src="./img/seguridad.webp" alt="icono candado" width="50px" height="50px">
+          <div class="conteiner__trabajos__pie">
+            <div class="conteiner__trabajos__info">
+              <img src="./img/seguridad.webp" alt="icono candado" width="50px" height="50px">
+            </div>
+            <h5>Sitio seguro</h5>
+            <p>Protegemos tus datos.</p>
           </div>
-          <h5>Sitio seguro</h5>
-          <p>Protegemos tus datos.</p>
         </div>
-      </div>
+      </div>  
       <!-- comienzo del footer -->
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <p class="col-md-4 mb-0 text-muted text-center"> Studio Spa</p>

@@ -13,49 +13,39 @@
         height: 100px;
         width: 130px;
     }
-
-    .conteiner_main {
+    .conteiner__main {
         width: 100%;
         height: 100%;
-        overflow: hidden;
-        position: relative;
-        margin-top: 150px;
-    }
-
-    .conteiner_main img {
-        width: 100%;
-        height: 90%;
-    }
-
-    .conteiner_main h1 {
-        font-weight: bolder;
-        font-size: 5rem;
-        color: white;
-        position: absolute;
-        top: 20%;
-        left: 20%;
-        transform: translate(-50%, -50%);
-        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1);
-    }
-
-    .conteiner_main p {
-        font-size: 2rem;
-        color: white;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        font-weight: bolder;
-        transform: translate(-50%, -50%);
-        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1);
-    }
-
-    /* footer */
-    .footer {
-        background-color: white;
-    }
-
-    .img_index {
-        margin-left: 10px;
+        margin-top: 90px;
+        &__p {
+            font-size: 25px;
+            color: palevioletred;
+            top: 60%;
+            left: 50%;
+        }
+        &__titulo {
+            font-size: 70px;
+            margin-top:10px;
+            color: white;
+            padding-top: 1px;
+            }
+        &__jacuzzi {
+            margin-top: 30px;
+            margin-left: 30px;
+            padding-left: 10px;
+        }
+        &__info {
+            width: 97%;
+            margin-bottom: 20px;
+        }
+        &__pie {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: white;
+        }
     }
 }
 
@@ -74,46 +64,53 @@
         width: 180px;
     }
 
-    .conteiner_main {
+    .conteiner__main {
         width: 100%;
-        height: 600px;
-        overflow: hidden;
+        height: 150px;
         position: relative;
         margin: 20px auto;
-        margin-top: 180px;
+        margin-top: 80px;
+
+        &__p {
+            font-size: 20px;
+            color: palevioletred;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        &__titulo {
+            font-size: 70px;
+            margin-top: 200px;
+            margin-bottom: 10px;
+            color: white;
+            position: relative;
+            text-align: center;
+            left: 50%;
+            font-weight: bolder;
+            transform: translate(-50%, -50%);
+            text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1);
+        }
+
+        &__jacuzzi {
+            margin-left: 50px;
+            margin-top: 80px;
+            margin-bottom: 10px;
+        }
+
+        &__info {
+            width: 97%;
+            margin-bottom: 20px;
+        }
+
+        &__pie {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
     }
 
-    .conteiner_main img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .conteiner_main h1 {
-        font-weight: bolder;
-        font-size: 4rem;
-        color: white;
-        position: absolute;
-        top: 20%;
-        left: 40%;
-        transform: translate(-50%, -50%);
-        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1);
-    }
-
-    .conteiner_main p {
-        font-size: 2rem;
-        color: white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        font-weight: bolder;
-        transform: translate(-50%, -50%);
-        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1);
-    }
-
-    /* footer */
     .footer {
         background-color: white;
-        font-family: "Roboto Mono", monospace;
     }
 }
 
@@ -121,49 +118,45 @@
 @media (min-width: 768px) {
     .navbar__background {
         background-color: white;
-    }
-
-    .nav-item {
+        &__item {
         font-size: 15px;
+        }
     }
-
     .logo__empresa {
         height: 100px;
         width: 130px;
     }
-
-    .conteiner_main {
+    .conteiner__main {
         width: 100%;
         height: 100%;
         margin-top: 90px;
-    }
-.titulo_principal{
-    font-size: 80px;
-    text-align: center;
-    color: palevioletred;
-    text-shadow: #000000;  
-    font-weight: bolder;
-    }
-    .conteiner_main p {
-        font-size: 25px;
-        color: white;                
-        top: 70%;
-        left: 50%;  
+        
+        &__p {
+            font-size: 25px;
+            color: palevioletred;
+            top: 70%;
+            left: 50%;
         }
-    .img_jacuzzi {
-        margin-left: 50px;
-        margin-top: 30px;
-    }
-    .img_pie {
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .pie {
-        margin-bottom: 20px;
-    }
-    .info_index {
-        width: 97%;
+        &__titulo {
+            font-size: 70px;
+            color: white;
+            margin-top: 180px;
+            margin-bottom: 10px;
+        }
+        &__jacuzzi {
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        &__info {
+            width: 97%;
+            margin-bottom: 20px;
+        }
+
+        &__pie {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
     }
 
     .footer {
@@ -186,40 +179,50 @@
         width: 130px;
     }
 
-    .conteiner_main {
+    .conteiner__main {
         width: 100%;
-        height: 600px;
-        overflow: hidden;
+        height: 150px;
         position: relative;
         margin: 20px auto;
-        margin-top: 180px;
-    }
+        margin-top: 80px;
 
-    .conteiner_main img {
-        width: 100%;
-        height: 100%;
-    }
+        &__p {
+            font-size: 20px;
+            color: palevioletred;
+            text-align: center;
+            margin-top: 20px;
+        }
 
-    .conteiner_main h1 {
-        font-weight: bolder;
-        font-size: 4rem;
-        color: white;
-        position: absolute;
-        top: 20%;
-        left: 40%;
-        transform: translate(-50%, -50%);
-        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1);
-    }
 
-    .conteiner_main p {
-        font-size: 2rem;
-        color: white;
-        position: absolute;
-        font-weight: bolder;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1);
+        &__titulo {
+            font-weight: bolder;
+            font-size: 3rem;
+            margin-top: 180px;
+            position: relative;
+            text-align: center;
+            color: white;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1);
+        }
+
+        &__jacuzzi {
+            margin-left: 50px;
+            margin-top: 100px;
+            margin-bottom: 10px;
+        }
+
+        &__info {
+            width: 97%;
+            margin-bottom: 20px;
+        }
+
+        &__pie {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
     }
 
     .footer {
