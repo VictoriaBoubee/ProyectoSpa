@@ -19,24 +19,24 @@
         margin-top: 90px;
         &__p {
             font-size: 25px;
-            color: palevioletred;
+            color: $primary;
             top: 60%;
             left: 50%;
         }
         &__titulo {
             font-size: 70px;
             margin-top:10px;
-            color: white;
+            color: $primary;
             padding-top: 1px;
             }
         &__jacuzzi {
             margin-top: 30px;
-            margin-left: 30px;
-            padding-left: 10px;
+            text-align:center;
         }
         &__info {
             width: 97%;
             margin-bottom: 20px;
+            color:$primary;
         }
         &__pie {
             text-align: center;
@@ -73,7 +73,7 @@
 
         &__p {
             font-size: 20px;
-            color: palevioletred;
+            color: $primary;
             text-align: center;
             margin-top: 20px;
         }
@@ -100,6 +100,7 @@
         &__info {
             width: 97%;
             margin-bottom: 20px;
+            color:$primary;
         }
 
         &__pie {
@@ -133,7 +134,7 @@
         
         &__p {
             font-size: 25px;
-            color: palevioletred;
+            color: $primary;
             top: 70%;
             left: 50%;
         }
@@ -150,6 +151,7 @@
         &__info {
             width: 97%;
             margin-bottom: 20px;
+            color:$primary;
         }
 
         &__pie {
@@ -188,7 +190,7 @@
 
         &__p {
             font-size: 20px;
-            color: palevioletred;
+            color:$primary;
             text-align: center;
             margin-top: 20px;
         }
@@ -216,6 +218,7 @@
         &__info {
             width: 97%;
             margin-bottom: 20px;
+            color:$primary;
         }
 
         &__pie {
