@@ -8670,7 +8670,8 @@ textarea.form-control-lg {
     color: palevioletred;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    margin-right: 200px; }
     .dia__spa__lead {
       font-size: 17px; } }
 
@@ -8696,7 +8697,8 @@ textarea.form-control-lg {
     .dia__spa__imagen {
       width: 60%;
       height: 250px;
-      margin-left: 30%; }
+      margin-left: 20px;
+      text-align: center; }
   .conteiner__trabajos__info {
     width: 97%;
     margin-bottom: 20px; }
@@ -8730,7 +8732,7 @@ textarea.form-control-lg {
     .dia__spa__lead {
       font-size: 17px; }
     .dia__spa__imagen {
-      margin-left: 20%;
+      margin-left: 20px;
       width: 80%;
       height: 80%; }
   .conteiner__trabajos__info {

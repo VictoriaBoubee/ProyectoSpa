@@ -18,9 +18,15 @@ height: 80px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right:200px;
     &__lead{
         font-size: 17px;
         }
+        &__imagen{
+            margin-left: 20px;
+            width: 80%;
+            height: 80%;
+            } 
 }
 }
 // Dispositivos pequeños (teléfonos horizontales, 576px y más)
@@ -47,9 +53,10 @@ height: 50px;
         margin: 10%;
         }
         &__imagen{
-            width: 60%;
+            width: 60px;
             height: 250px;
-            margin-left: 30%;
+            margin-left: 20px;
+            text-align: center;
         }
 }
 .conteiner__trabajos{
@@ -97,7 +104,7 @@ margin-top: 5px;
         font-size: 17px;
         }
     &__imagen{
-        margin-left: 20%;
+        margin-left: 20px;
         width: 80%;
         height: 80%;
         } 
