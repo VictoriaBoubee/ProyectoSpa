@@ -1,169 +1,80 @@
 // Dispositivos grandes (escritorios, 992px y más)
 
 @media (min-width: 992px) {
-.navbar__background {
-background-color: white;
-}
-.nav-item{
-font-size: 15px;
-}
-.logo__empresa {
-height: 100px;
-width: 130px;
-}
-.conteiner_main{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    margin-top: 150px;
-}
-.conteiner_main img{
-    width: 100%;
-    height: 100%;
-}
-.conteiner_main h1{
-    font-weight: bolder;
-    font-size: 5rem;
-    color: white;
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1.0)
-}
-.conteiner_main p {
-    font-size: 2rem;
-    color: white;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    font-weight: bolder;
-    transform: translate(-50%, -50%);
-    text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1.0)
+    .navbar__background {
+        background-color: white;
     }
-/* footer */
-.footer{
-    background-color: white;
+
+    .nav-item {
+        font-size: 20px;
+    }
+
+    .logo__empresa {
+        height: 100px;
+        width: 130px;
+    }
+
+    .conteiner_main {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        margin-top: 150px;
+    }
+
+    .conteiner_main img {
+        width: 100%;
+        height: 90%;
+    }
+
+    .conteiner_main h1 {
+        font-weight: bolder;
+        font-size: 5rem;
+        color: white;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1);
+    }
+
+    .conteiner_main p {
+        font-size: 2rem;
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        font-weight: bolder;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1);
+    }
+
+    /* footer */
+    .footer {
+        background-color: white;
+    }
+
+    .img_index {
+        margin-left: 10px;
+    }
 }
-}
+
 // Dispositivos pequeños (teléfonos horizontales, 576px y más)
 @media (min-width: 576px) {
-.navbar__background {
-background-color: white;
-}
-.nav-item{
-font-size: 15px;
-}
-.logo__empresa {
-height: 140px;
-width: 180px;
-}
-.conteiner_main{
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
-    position: relative;
-    margin: 20px auto;
-    margin-top: 180px;
-}
-.conteiner_main img{
-    width: 100%;
-    height: 100%;
-}
-.conteiner_main h1{
-    font-weight: bolder;
-    font-size: 4rem;
-    color: white;
-    position: absolute;
-    top: 20%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1.0)
-    }
-.conteiner_main p {
-    font-size: 2rem;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-weight: bolder;
-    transform: translate(-50%, -50%);
-    text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1.0)
-}
-
-
-/* footer */
-.footer{
-background-color: white;
-font-family: 'Roboto Mono', monospace;
-}
-}
-
-// Dispositivos medianos (tabletas, 768px y más)
-@media (min-width: 768px) { 
-.navbar__background {
-background-color: white;
-}
-.nav-item{
-font-size: 15px;
-}
-.logo__empresa {
-height: 100px;
-width: 130px;
-}
-.conteiner_main{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    margin: 20px auto;
-    margin-top: 180px;
-}
-.conteiner_main img{
-    width: 100%;
-    height: 90%;
-}
-.conteiner_main h1{
-    font-weight: bolder;
-    font-size: 4rem;
-    color: white;
-    position: absolute;
-    top: 20%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1.0)
-    }
-.conteiner_main p {
-    font-size: 2rem;
-    color: white;
-    position: absolute;
-    font-weight: bolder;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1.0)
-}
-.img_index{
-margin-left: 10px;
-}
-.footer{
-background-color: white;
-}
-}
-// `sm` applies to x-small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
     .navbar__background {
-    background-color: white;
+        background-color: white;
     }
-    .nav-item{
-    font-size: 15px;
+
+    .nav-item {
+        font-size: 15px;
     }
+
     .logo__empresa {
-    height: 100px;
-    width: 130px;
+        height: 140px;
+        width: 180px;
     }
-    .conteiner_main{
+
+    .conteiner_main {
         width: 100%;
         height: 600px;
         overflow: hidden;
@@ -171,11 +82,13 @@ background-color: white;
         margin: 20px auto;
         margin-top: 180px;
     }
-    .conteiner_main img{
+
+    .conteiner_main img {
         width: 100%;
         height: 100%;
     }
-    .conteiner_main h1{
+
+    .conteiner_main h1 {
         font-weight: bolder;
         font-size: 4rem;
         color: white;
@@ -183,8 +96,121 @@ background-color: white;
         top: 20%;
         left: 40%;
         transform: translate(-50%, -50%);
-        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1.0)
+        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1);
+    }
+
+    .conteiner_main p {
+        font-size: 2rem;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-weight: bolder;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1);
+    }
+
+    /* footer */
+    .footer {
+        background-color: white;
+        font-family: "Roboto Mono", monospace;
+    }
+}
+
+// Dispositivos medianos (tabletas, 768px y más)
+@media (min-width: 768px) {
+    .navbar__background {
+        background-color: white;
+    }
+
+    .nav-item {
+        font-size: 15px;
+    }
+
+    .logo__empresa {
+        height: 100px;
+        width: 130px;
+    }
+
+    .conteiner_main {
+        width: 100%;
+        height: 100%;
+        margin-top: 90px;
+    }
+.titulo_principal{
+    font-size: 80px;
+    text-align: center;
+    color: palevioletred;
+    text-shadow: #000000;  
+    font-weight: bolder;
+    }
+    .conteiner_main p {
+        font-size: 25px;
+        color: white;                
+        top: 70%;
+        left: 50%;  
         }
+    .img_jacuzzi {
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .img_pie {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .pie {
+        margin-bottom: 20px;
+    }
+    .info_index {
+        width: 97%;
+    }
+
+    .footer {
+        background-color: white;
+    }
+}
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .navbar__background {
+        background-color: white;
+    }
+
+    .nav-item {
+        font-size: 15px;
+    }
+
+    .logo__empresa {
+        height: 100px;
+        width: 130px;
+    }
+
+    .conteiner_main {
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+        position: relative;
+        margin: 20px auto;
+        margin-top: 180px;
+    }
+
+    .conteiner_main img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .conteiner_main h1 {
+        font-weight: bolder;
+        font-size: 4rem;
+        color: white;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1);
+    }
+
     .conteiner_main p {
         font-size: 2rem;
         color: white;
@@ -193,12 +219,10 @@ background-color: white;
         top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
-        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1.0)
+        text-shadow: 0 0 8px rgba($color: #000000, $alpha: 1);
     }
-    .footer{
-    background-color: white;
+
+    .footer {
+        background-color: white;
     }
-    } 
-
-
-
+}

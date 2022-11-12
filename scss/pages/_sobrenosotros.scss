@@ -51,19 +51,26 @@
     margin-top: 20px;
     font-size: 20px;
   }
-   .main__video {
-    margin-left: 10%;
-    margin-top: 100px;
-    width: 350px;
-  }
-  .titulo_pilares{
+    .titulo_pilares{
     font-weight: bolder;
   }
   .flor_loto {
     width: 200px;
     height: 200px;
   }
+  .imagenes_promo{
+    margin-left: 20px;    
+  }
+.texto_promo{
+  text-align: center;
+  margin-top: 20px; 
+ }
+.info_nosotros{
+  width: 97%;
+  font-size: 15px;
 }
+}
+
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
   .titulo_pilares{

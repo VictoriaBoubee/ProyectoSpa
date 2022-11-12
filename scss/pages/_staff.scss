@@ -53,6 +53,23 @@ margin-left: 35px;
 margin-top: 25px;
 border-radius: 8px;
 }
+.info_staff{
+    width: 97%;
+}
+.titulo_promo{
+    text-align: center;    
+    color: palevioletred; 
+    margin-top: 30px;  
+    margin-bottom: 30px;
+}
+.img_staff{
+    width: 90%;
+}
+.promociones_staff{
+    text-align: center;
+    width: 97%;
+    margin-left: 30px;
+}
 }
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
