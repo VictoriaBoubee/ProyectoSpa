@@ -8885,7 +8885,8 @@ textarea.form-control-lg {
   .felx__container {
     display: flex;
     flex-direction: row;
-    text-align: center; }
+    text-align: center;
+    margin-left: 300px; }
   .felx__container div {
     margin: 60px;
     text-align: center;
@@ -8916,7 +8917,11 @@ textarea.form-control-lg {
   .titulo_contacto {
     margin-top: 150px;
     margin-bottom: 50px;
-    font-weight: bolder; } }
+    font-weight: bolder; }
+  .felx__container {
+    display: flex;
+    flex-direction: row;
+    text-align: center; } }
 
 @media (max-width: 575.98px) {
   .contacto_redes {
@@ -8933,4 +8938,3 @@ textarea.form-control-lg {
     margin: 27px;
     text-align: center;
     font-size: 13px; } }
- 
