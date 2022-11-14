@@ -8604,12 +8604,10 @@ textarea.form-control-lg {
     padding-top: 40px;
     margin-top: 100px;
     margin-left: 100px;
-    font-family: 'Roboto Mono', monospace;
     font-size: 40px;
-    font-weight: bolder; }
+    width: 95%; }
   .promociones__staff {
     text-align: center;
-    width: 97%;
     margin-left: 30px; }
     .promociones__staff__titulo {
       text-align: center;
@@ -8622,7 +8620,9 @@ textarea.form-control-lg {
   .conteiner__staff__pie {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  .staff__main {
+    width: 97%; } }
 
 @media (max-width: 575.98px) {
   .main__staff {
@@ -8673,7 +8673,11 @@ textarea.form-control-lg {
     margin-bottom: 20px;
     margin-right: 200px; }
     .dia__spa__lead {
-      font-size: 17px; } }
+      font-size: 17px; }
+    .dia__spa__imagen {
+      margin-left: 20px;
+      width: 80%;
+      height: 80%; } }
 
 @media (min-width: 576px) {
   .main__trabajos__titulo {
@@ -8695,10 +8699,9 @@ textarea.form-control-lg {
       text-align: center;
       margin: 10%; }
     .dia__spa__imagen {
-      width: 60%;
-      height: 250px;
-      margin-left: 20px;
-      text-align: center; }
+      margin-left: 20%;
+      width: 400px;
+      height: 250px; }
   .conteiner__trabajos__info {
     width: 97%;
     margin-bottom: 20px; }
@@ -8710,38 +8713,38 @@ textarea.form-control-lg {
     width: 100%; } }
 
 @media (min-width: 768px) {
-  .main__trabajos__titulo {
-    font-family: 'Roboto Mono', monospace;
-    margin-top: 40px;
-    padding-top: 40px;
-    margin-left: 50px;
-    font-size: 40px;
-    font-weight: bolder; }
-  .icono_yoga {
-    width: 90px;
-    height: 80px; }
-  .carousel-inner {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5px; }
-  .dia__spa {
-    color: palevioletred;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px; }
-    .dia__spa__lead {
-      font-size: 17px; }
-    .dia__spa__imagen {
-      margin-left: 20px;
+  .main__trabajos {
+    width: 95%; }
+    .main__trabajos__titulo {
+      margin-top: 40px;
+      padding-top: 40px;
+      margin-left: 50px;
+      font-size: 40px;
+      font-weight: bolder; }
+    .main__trabajos .icono_yoga {
+      width: 90px;
+      height: 80px; }
+    .main__trabajos .carousel-inner {
       width: 80%;
-      height: 80%; }
-  .conteiner__trabajos__info {
-    width: 97%;
-    margin-bottom: 20px; }
-  .conteiner__trabajos__pie {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px; } }
+      margin-left: 10%;
+      margin-top: 5px; }
+    .main__trabajos .dia__spa {
+      color: palevioletred;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+      .main__trabajos .dia__spa__lead {
+        font-size: 17px; }
+      .main__trabajos .dia__spa__imagen {
+        margin-left: 10px;
+        width: 80%;
+        height: 80%; }
+    .main__trabajos .conteiner__trabajos__info {
+      margin-bottom: 20px; }
+    .main__trabajos .conteiner__trabajos__pie {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px; } }
 
 @media (max-width: 575.98px) {
   .main__trabajos__titulo {
@@ -8832,14 +8835,15 @@ textarea.form-control-lg {
     padding-top: 100px;
     padding-bottom: 50px;
     margin-top: 20px;
-    font-size: 20px; }
+    font-size: 20px;
+    width: 97%; }
     .main__nuestros__pilares__titulo {
       font-weight: bolder; }
   .info__nosotros {
     width: 97%;
     font-size: 15px; }
     .info__nosotros__imagenes {
-      margin-left: 20%; }
+      width: 90%; }
     .info__nosotros__texto {
       text-align: center;
       margin-top: 20px; }
@@ -8847,7 +8851,6 @@ textarea.form-control-lg {
     width: 200px;
     height: 200px; }
   .conteiner__nosotros__info {
-    width: 97%;
     margin-bottom: 20px; }
   .conteiner__nosotros__pie {
     text-align: center;

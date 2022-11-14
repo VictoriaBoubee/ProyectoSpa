@@ -53,10 +53,9 @@ height: 50px;
         margin: 10%;
         }
         &__imagen{
-            width: 60px;
+            margin-left: 20%;
+            width: 400px;
             height: 250px;
-            margin-left: 20px;
-            text-align: center;
         }
 }
 .conteiner__trabajos{
@@ -77,8 +76,9 @@ width: 100%;
 
 // Dispositivos medianos (tabletas, 768px y más)
 @media (min-width: 768px) { 
-.main__trabajos__titulo{
-font-family:'Roboto Mono', monospace;
+.main__trabajos{
+width: 95%;
+&__titulo{
 margin-top: 40px;
 padding-top: 40px;    
 margin-left: 50px;    
@@ -104,22 +104,21 @@ margin-top: 5px;
         font-size: 17px;
         }
     &__imagen{
-        margin-left: 20px;
+        margin-left: 10px;
         width: 80%;
         height: 80%;
         } 
     }
 .conteiner__trabajos{
     &__info {
-    width: 97%;
     margin-bottom: 20px;
 }
 &__pie {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-} 
-
+   } 
+}
 }
 }
 // `sm` applies to x-small devices (portrait phones, less than 576px)

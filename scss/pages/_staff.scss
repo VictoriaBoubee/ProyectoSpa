@@ -68,34 +68,34 @@ margin-bottom: 20px;
 padding-top: 40px;
 margin-top: 100px;
 margin-left: 100px;
-font-family:'Roboto Mono', monospace;
 font-size: 40px; 
-font-weight: bolder;
+width: 95%;
 }
 .promociones__staff{
     text-align: center;
-    width: 97%;
     margin-left: 30px;
-    &__titulo{
+        &__titulo{
         text-align: center;    
         color: palevioletred; 
         margin-top: 30px;  
         margin-bottom: 30px;
-    }
+        }
 }
 .conteiner__staff{
     &__info {
-      width: 97%;
-      margin-bottom: 20px;
-  }
-  &__pie {
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom: 20px;
-  } 
-  }
-  
+    width: 97%;
+    margin-bottom: 20px;
+    }
+&__pie {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;}
+} 
+.staff__main{
+width: 97%;
 }
+}  
+
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
 .main__staff{
@@ -134,4 +134,4 @@ font-weight: bolder;
             margin-bottom: 30px;
         }
     }
- }
+}
