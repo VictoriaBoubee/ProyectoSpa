@@ -5,16 +5,23 @@
     padding-bottom: 50px;
     margin-top: 10px; 
     font-family:'Roboto Mono', monospace;
-    font-size: 50px; 
+    font-size: 50px;
+    margin-left:10px;
     }
     .titulo_pilares{
       font-weight: bolder;
     }
-  .container-fluid {
-   margin-top: 100px;
-    width: 350px; 
-    margin-left: 30%;   
-  }
+  .conteiner__2 {
+    text-align: center;
+    &__img{
+        width:50px;
+        height:50px;
+        margin-top: 20px;}
+    &__img__big{
+      width:450px;
+      height:300px;
+    }
+}
   .flor_loto{
     width: 200px;
     height: 200px;
@@ -25,39 +32,9 @@
   .main__nuestros__pilares{
     margin-top: 200px;
     }
-  .nuestros_pilares {
-    margin-bottom: 50px;
-    font-family: monospace;
-    font-size: 80px;
-  }
-  .titulo_pilares{
-    font-weight: bolder;
-  }  
   .flor_loto {
     width: 200px;
     height: 200px;
-  }
-  .conteiner__nosotros{
-    &__info {
-      width: 97%;
-      margin-bottom: 20px;
-  }
-  &__pie {
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom: 20px;
-  } 
-  }
-  .info__nosotros{
-    width: 97%;
-    font-size: 15px;
-    &__imagenes{
-    margin-left: 10%;    
-  }
-  &__texto{
-  text-align: center;
-  margin-top: 20px; 
-}
   }
   }
   
@@ -68,75 +45,39 @@
     padding-bottom: 50px;
     margin-top: 20px;
     font-size: 20px;
+    margin-left:10px;
     width: 97%;
     &__titulo{
     font-weight: bolder;
     }
-  }
-  .info__nosotros{
-    width: 97%;
-    font-size: 15px;
-    &__imagenes{
-    
-    width: 90%;
-  }
-  &__texto{
-  text-align: center;
-  margin-top: 20px; 
- }
   }
     
   .flor_loto {
     width: 200px;
     height: 200px;
   }
-.conteiner__nosotros{
-  &__info {
-    margin-bottom: 20px;
-    }
-&__pie {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    } 
-}
 }
 
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
-  .titulo_pilares{
-    font-weight: bolder;
-  }
   .main__nuestros__pilares {
     padding-top: 100px;
     padding-bottom: 50px;
     margin-top: 20px;
     font-size: 20px;
-  }
-  .conteiner__nosotros{
-    &__info {
-      width: 97%;
-      margin-bottom: 20px;
-  }
-  &__pie {
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom: 20px;
-  } 
-  }
-  .info__nosotros{
-    width: 97%;
-    font-size: 15px;
-    &__imagenes{
-    margin-left: 20px;    
-  }
-  &__texto{
-  text-align: center;
-  margin-top: 20px; 
- }
+    width: 90%;
+    text-align: center;
   }
   .flor_loto{
     width: 150px;
-    height: 150px;
   }
-   }
+  .conteiner__2 {
+    text-align: center;
+    width: 95%;
+    &__img{
+        width:50px;
+        height:50px;
+        margin-top: 20px;
+    }
+}
+}

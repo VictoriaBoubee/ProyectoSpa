@@ -1,21 +1,32 @@
 @media (min-width: 992px) { 
-.main_staff{
-padding-top: 100px;
-margin-top: 13%;
-padding-bottom: 50px;
-margin-left: 100px;
-font-family:'Roboto Mono', monospace;
-font-size: 40px; 
-font-weight: bolder;
-}
 .img-fluid{
-width: 90%;
-height: 300px;
+width: 100%;
 margin-left: 5%;
 margin-top: 25px;
-border-radius: 8px;
+margin-bottom: 10px;
 position: center;
+text-align: center;
 }
+.main__staff{
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family:'Roboto Mono', monospace;
+    font-size: 40px; 
+    font-weight: bolder;
+    }
+.conteiner__2 {
+    text-align: center;
+    margin-top: 10px;
+    &__img{
+        width:50px;
+        height:50px;
+        margin-top: 20px;}
+        &__big{
+            width:400px;
+            height:300px;
+        }
+    }
 }
 // Dispositivos pequeños (teléfonos horizontales, 576px y más)
 @media (min-width: 576px) { 
@@ -27,35 +38,7 @@ font-family:'Roboto Mono', monospace;
 font-size: 40px; 
 font-weight: bolder;
 }
-.imagenes_staff{
-width: 350px;
-height: 300px;
-margin-left: 35px;
-margin-top: 25px;
-border-radius: 8px;
-}
-.conteiner__staff{
-    &__info {
-    width: 97%;
-    margin-bottom: 20px;
-}
-&__pie {
-text-align: center;
-margin-top: 20px;
-margin-bottom: 20px;
-} 
-}
-.promociones__staff{
-    text-align: center;
-    width: 97%;
-    margin-left: 20px;
-    &__titulo{
-        text-align: center;    
-        color: palevioletred; 
-        margin-top: 30px;  
-        margin-bottom: 30px;
-    }
-}
+
 .img-fluid{
     width: 300px;
     height: 200px;
@@ -71,29 +54,18 @@ margin-left: 100px;
 font-size: 40px; 
 width: 95%;
 }
-.promociones__staff{
+.conteiner__2 {
     text-align: center;
-    margin-left: 30px;
-        &__titulo{
-        text-align: center;    
-        color: palevioletred; 
-        margin-top: 30px;  
-        margin-bottom: 30px;
+    margin-top: 10px;
+    &__img{
+        width:50px;
+        height:50px;
+        margin-top: 20px;}
+        &__big{
+            width:300px;
         }
-}
-.conteiner__staff{
-    &__info {
-    width: 97%;
-    margin-bottom: 20px;
     }
-&__pie {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;}
-} 
-.staff__main{
-width: 97%;
-}
+
 }  
 
 // `sm` applies to x-small devices (portrait phones, less than 576px)
@@ -111,27 +83,5 @@ width: 97%;
     margin-left: 20%;
     position: center;
     margin-top: 10px;
-    }
-    .conteiner__staff{
-        &__info {
-        width: 97%;
-        margin-bottom: 20px;
-    }
-    &__pie {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    } 
-    }
-    .promociones__staff{
-        text-align: center;
-        width: 97%;
-        margin-left: 20px;
-        &__titulo{
-            text-align: center;    
-            color: palevioletred; 
-            margin-top: 30px;  
-            margin-bottom: 30px;
-        }
     }
 }

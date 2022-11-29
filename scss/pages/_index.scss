@@ -13,10 +13,19 @@
         height: 100px;
         width: 130px;
     }
+    .conteiner__2 {
+        text-align: center;
+        width: 95%;
+        &__img{
+            width:50px;
+            height:50px;
+            margin-top: 20px;
+        }
+    }
     .conteiner__main {
-        width: 100%;
-        height: 100%;
+        width: 95%;
         margin-top: 90px;
+        text-align: center;
         &__p {
             font-size: 25px;
             color: $primary;
@@ -123,6 +132,15 @@
         font-size: 15px;
         }
     }
+    .conteiner__2 {
+        text-align: center;
+        width: 95%;
+        &__img{
+            width:50px;
+            height:50px;
+            margin-top: 20px;
+        }
+    }
     .logo__empresa {
         height: 100px;
         width: 130px;
@@ -182,11 +200,11 @@
     }
 
     .conteiner__main {
-        width: 100%;
-        height: 150px;
+        width: 95%;
         position: relative;
         margin: 20px auto;
         margin-top: 80px;
+        text-align: center;
 
         &__p {
             font-size: 20px;
@@ -213,6 +231,8 @@
             margin-left: 50px;
             margin-top: 100px;
             margin-bottom: 10px;
+            text-align: center;
+            max-width: 90%;
         }
 
         &__info {
@@ -230,5 +250,20 @@
 
     .footer {
         background-color: white;
+    }
+    .conteiner__2 {
+        text-align: center;    
+        &__img{
+            width:50px;
+            height:50px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        &__img__big{
+            width: 95%;
+            text-align: center;
+            margin-bottom:10px;
+
+        }
     }
 }
